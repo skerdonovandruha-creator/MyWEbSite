@@ -1,0 +1,121 @@
+html{
+ scroll-behavior: smooth;
+}
+
+.jopa{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #00aeff;
+  font-size: 28px;
+  position: fixed;
+  border: solid, 3px black;
+  bottom: 30px; right: 30px;
+  text-align: center;
+  font-size: 200%;
+}
+
+header{
+    background: linear-gradient(to bottom, #0092e7, #86bbff);
+    border: solid 3px black;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    
+}
+
+header a{
+  display: flex;
+  justify-content: center;
+  font-weight:bolder;
+  line-height: 1.6;
+  text-align: center;
+  
+}
+
+.botoom{
+  padding-top: 90px;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.bott{
+  border-radius: 12%;
+  background: #ffffff;
+  font-size: 28px;
+  border: solid, 3px black;
+  text-align: center;
+  font-size: 80%;
+}
+
+body{
+    background: linear-gradient(to bottom, #bdfdff, #bdfffc);
+}
+
+
+.opisanie{
+   flex-direction: column;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 300%; 
+   margin-top: 850px;
+   margin-bottom: 850px;
+   background: linear-gradient(to bottom, #0092e7, #86bbff);
+   color: white;
+  border: solid 3px black;
+}
+
+.zan{
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border: solid 3px black;
+   font-size: 120%;
+   line-height: 1.6;
+   color: white;
+   background: linear-gradient(to bottom, #0092e7, #86bbff);
+   margin-bottom: 850px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.sharaga{
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border: solid 3px black;
+   font-size: 120%;
+   line-height: 1.6;
+   color: white;
+   background: linear-gradient(to bottom, #0092e7, #86bbff);
+   height: 650px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.noga{
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border: solid 3px black;
+   font-size: 120%;
+   color: white;
+   background: linear-gradient(to bottom, #0092e7, #86bbff);
+   height: 120px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+
+}
+
+.info{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
